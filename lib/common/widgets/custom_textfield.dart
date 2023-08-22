@@ -5,16 +5,19 @@ class CustomTextfield extends StatelessWidget {
       {super.key,
       required this.controller,
       required this.hintText,
-      required this.isPasswordField});
+      this.isPasswordField = false,
+      this.maxLines = 1});
   final TextEditingController controller;
   final String hintText;
   final bool isPasswordField;
+  final int maxLines;
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       obscureText: isPasswordField,
       controller: controller,
+      maxLines: maxLines,
       decoration: InputDecoration(
         hintText: hintText,
         border: const OutlineInputBorder(
