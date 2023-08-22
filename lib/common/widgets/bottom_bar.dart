@@ -55,7 +55,7 @@ class _BottomBarState extends State<BottomBar> {
                       width: bottomBarBorderWidth),
                 ),
               ),
-              child: Icon(Icons.home_outlined),
+              child: const Icon(Icons.home_outlined),
             ),
             label: '',
           ),

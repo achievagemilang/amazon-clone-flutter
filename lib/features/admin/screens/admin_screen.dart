@@ -54,7 +54,7 @@ class _AdminScreenState extends State<AdminScreen> {
                       width: bottomBarBorderWidth),
                 ),
               ),
-              child: Icon(Icons.home_outlined),
+              child: const Icon(Icons.home_outlined),
             ),
             label: '',
           ),
@@ -86,7 +86,7 @@ class _AdminScreenState extends State<AdminScreen> {
                       width: bottomBarBorderWidth),
                 ),
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.all_inbox_outlined,
               ),
             ),

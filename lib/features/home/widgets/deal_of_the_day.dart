@@ -44,7 +44,7 @@ class _DealOfTheDayState extends State<DealOfTheDay> {
             overflow: TextOverflow.ellipsis,
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         SingleChildScrollView(
